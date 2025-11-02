@@ -1,0 +1,42 @@
+# 编译后的二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 编译包时产生的文件
+*.a
+
+# 测试相关的输出文件
+*.test
+*.out
+
+# 依赖管理工具生成的目录
+vendor/
+./vendor/
+
+# Go 模块目录
+pkg/
+
+# 项目特定的构建输出目录
+bin/
+dist/
+
+# 开发环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置目录（你原来有的部分）
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
